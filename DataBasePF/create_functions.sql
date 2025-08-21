@@ -172,7 +172,7 @@ END$$
 
 DELIMITER ;
 
--- Crear procedimiento almacenado para obtener el historial de compra/venta de activos de un usuario
+-- Crear procedimiento almacenado para obtener el historial del valor de portafolio de un usuario
 DELIMITER $$
 
 CREATE PROCEDURE get_portafolio_history(IN user_id BIGINT)
